@@ -1,41 +1,52 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+    height: 700px;
+    width:550px;
+
     display: flex;
     flex-direction: column;
-    height: 431px;
-    width:402px;
-    padding: 30px;
+    align-items:center;
+    justify-content:center;
+    
+    
     color: #ffff;
 
-    background-color:#a41d19;
+    
+    /* background-color:#a41d19; */
+    background-color: #f0716d;
+
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0px 0px 13px 0px #000000;
+    background: url(${props => props.bg});
+    background-position: center 55%;
+    background-size: 1000px;
+
+  
     ul{
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        width: 400px;
 
         li{
             font-size: 20px;
             display: flex;
             align-items:center;
             justify-content:center;
-            width: 100%;
+            width: 120px;
             height:40px;
         }
 
         li:hover{
-            background-color: #711411;
+            background-color: #a41d19;
         }
 
     }
 
-    
+
 `;
 
 export const Number = styled.div`
-    font-size: 300px;
+    font-size: 150px;
     
     font-weight: 200;
 `;
