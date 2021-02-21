@@ -1,5 +1,5 @@
 import React from 'react';
-import Timer from './Timer/Timer';
+import Timer from "../Timer/Timer"
 import "./App.css"
 
 const App = () => {

@@ -1,8 +1,8 @@
 import React, { Component, useEffect, useState } from "react";
 import Play from "./Play";
 import { Number, Wrapper } from "./Timer.style";
-import timeConverter from "../util/timeConverter";
-import bg from "../img/bg.svg"
+import timeConverter from "../../util/timeConverter";
+import bg from "../../img/bg.svg"
 
 
 const Timer = () => {
