@@ -1,7 +1,7 @@
 # Pomodoro App
 
 <p align="center">
-  <img height="520" src="src/assets/toRead.me/gif2.gif" />
+  <img height="520" src="src/img/Gif.gif" />
 </p>
 
 ## About The Project :mag:
